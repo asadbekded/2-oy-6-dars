@@ -365,6 +365,11 @@ template {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -373,8 +378,16 @@ template {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
   margin: 0px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -383,6 +396,12 @@ img {
   vertical-align: middle;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .visually-hidden {
@@ -611,7 +630,7 @@ section {
 
 .choose-box {
   height: 703px;
-  background-image: url("../images/bcg.img.png");
+  background-image: url("../images/pisok.img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -687,7 +706,7 @@ section {
 .work-box {
   position: relative;
   margin-top: 250px;
-  background-image: url("../images/bcg.img.png");
+  background-image: url("../../images/pisok.img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -842,7 +861,6 @@ footer {
 }
 
 .img-item:active {
-  background-color: #a52a2a;
   opacity: 0.5;
 }
 
@@ -860,5 +878,163 @@ footer {
 
 .footer-icon {
   fill: #be0fbe;
+}
+
+.site-header {
+  padding: 40px 0;
+  background-image: url("../images/Group 3613.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-list {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-item {
+  padding-left: 40px;
+}
+
+.top-item:nth-child(1) {
+  padding-left: 0px;
+}
+
+.top-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 5px 8px;
+  border: 2px solid #F2D3B0;
+  border-radius: 20px;
+}
+
+.top-link:hover {
+  color: #0000ff;
+  border-color: #a52a2a;
+}
+
+.top-link:active {
+  background-color: #a52a2a;
+  color: #FFFFFF;
+  border-color: #000000;
+}
+
+.bottom-box {
+  position: relative;
+  width: 372px;
+  margin-left: 80px;
+}
+
+.dog-section {
+  position: relative;
+  padding: 156px 0 256px 0;
+  background-image: url("../images/bcg.img.png"), url("../images/Group 3613.png");
+  background-repeat: no-repeat;
+  background-size: 710px 596px, cover;
+  background-position: calc(50% + 350px) calc(-35px), calc(0px);
+}
+
+.plum-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 160px 60px 200px 160px;
+}
+
+.apple-box {
+  width: 626px;
+}
+
+.plum-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.fox-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 30px;
+  height: 510px;
+  margin-top: 160px;
+}
+
+.glass-box {
+  width: 639px;
+  margin: 0px;
+  padding-left: 160px;
+}
+
+.glass-title {
+  text-align: justify;
+}
+
+.coffe-img {
+  margin-bottom: 220px;
+  height: 500px;
+}
+
+.pig-title {
+  margin-bottom: 80px;
+}
+
+.img-bull {
+  margin-top: 45px;
+  margin-left: 220px;
+}
+
+.hero-bull {
+  margin-top: 0px;
+}
+
+.bull-box {
+  position: relative;
+  background-image: url("../../images/pisok.img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #0A775F;
+  padding: 50px 20px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .just-section {
+    background-image: url("../images/bcg.img@2x.png");
+  }
 }
 /*# sourceMappingURL=main.css.map */
