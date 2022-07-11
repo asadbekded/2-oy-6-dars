@@ -1,0 +1,16 @@
+*, *::after, *::before{
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+body{
+   margin: 0px;
+   font-family: 'Roboto';
+}
+img{
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+   object-fit: cover;
+}

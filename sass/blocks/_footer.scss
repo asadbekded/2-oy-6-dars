@@ -1,0 +1,39 @@
+footer{
+   padding: 40px 0;
+   background-image: url("../images/Group\ 3613.png");
+   background-repeat: no-repeat;
+   background-size: 100%; 
+}
+.site-footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0px;
+}
+.img-list{
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+}
+.img-item{
+   margin-left: 30px;
+}
+.img-item:hover{
+   opacity: 0.8;
+}
+.img-item:active{
+   background-color: #a52a2a;
+   opacity: 0.5;
+}
+.logo-img:hover{
+   opacity: 0.8;
+}
+.icon-img{
+   fill: #0b0b87;
+}
+.hero-icon{
+   fill: #fff;
+}
+.footer-icon{
+   fill: #be0fbe;
+}

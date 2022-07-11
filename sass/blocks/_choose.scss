@@ -1,0 +1,63 @@
+.choose-box{
+   height: 703px;
+   background-image: url("../images/bcg.img.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: overlay;
+   background-color: #C99B67;
+   padding-top: 50px;
+}
+.role-box{
+   width: 582px;
+   margin: 0px auto;
+}
+.role-title{
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 59px;
+   text-align: center;
+   font-variant: small-caps;
+   color: #FFFFFF;
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 10px;
+}
+.role-text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   text-align: center;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+   margin: 0px;
+   padding: 0px;
+}
+.choose-list{
+   margin: 0px;
+   margin-top: 80px;
+   padding-left: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.choose-title{
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 35px;
+   font-variant: small-caps;
+   color: #333333;
+   margin: 0px;
+   margin: 20px 0px 10px; 
+   padding: 0px
+}
+.choose-text{
+   width: 377px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   color: #333333;
+   margin-top: 0px;
+   padding: 0px;
+}

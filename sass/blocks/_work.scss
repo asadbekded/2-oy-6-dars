@@ -1,0 +1,102 @@
+.work-box{
+   position: relative;
+   margin-top: 250px;
+   background-image: url("../images/bcg.img.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: overlay;
+   background-color: #0A775F;
+   padding: 50px 20px;
+   margin-bottom: 50px;
+}
+.work-box::before{
+   position: absolute;
+   display: inline-block;
+   background-image: url("../images/sticker-3\ 1.png");
+   background-repeat: no-repeat;
+   width: 240px;
+   height: 170px;
+   top: 45px;
+   left: 1050px;
+   content: '';
+}
+.work-title{
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 59px;
+   text-align: center;
+   font-variant: small-caps;
+   color: #FFFFFF;
+   margin: 0px;
+   padding: 0px;
+}
+.img-box{
+   margin-top: 80px;
+   background-image: url("../images/Vector\ 5.svg");
+   background-repeat: no-repeat;
+   background-size: 897px;
+   background-position: left center;
+}
+.img-hero{
+   margin-right: 363px;
+}
+.work-list{
+   margin: 0px;
+   margin-top: 20px;
+   padding: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.work-item{
+   width: 425px;
+   background: #F8F8F2;
+   padding: 20px 20px 40px 20px;
+}
+.work-bull{
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 75px;
+   font-variant: small-caps;
+   color: #333333;
+   opacity: 0.8;
+   margin-left: 320px;
+}
+.bull-title{
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 47px;
+   font-variant: small-caps;
+   color: #333333;
+   margin: 0px;
+   padding: 0px;
+   margin-top: 45px;
+}
+.bull-text{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   color: #333333;
+}
+.work-link{
+   display: inline-block;
+   margin-left: 560px;
+   margin-top: 60px;
+   font-weight: 500;
+   font-size: 16px; 
+   line-height: 19px;
+   letter-spacing: 1px;
+   font-variant: small-caps;
+   color: #FFFFFF;
+   background: #C99B67;
+   border-radius: 100px;
+   padding: 16px 24px;
+}
+.work-link:hover{
+   background-color: #a52a2a;
+   color: #000000;
+}
+.work-link:active{
+   background-color: #a52;
+   color: #a52a2a;
+}
