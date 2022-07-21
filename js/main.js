@@ -31,6 +31,9 @@ elThemImg.addEventListener("click", function() {
 var elShouldImg = document.querySelector(".should-img");
 var elShouldBox = document.querySelector(".should-box");
 
+
 elShouldImg.addEventListener("click", function() {
    elShouldBox.classList.toggle("open")
 })
+
+
